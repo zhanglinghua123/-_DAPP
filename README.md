@@ -15,6 +15,7 @@ truffle migrate
 ### Compiles and hot-reloads for development
 
 ```
+- 通过该命令来运行项目
 npm run serve
 ```
 
