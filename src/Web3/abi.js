@@ -520,13 +520,8 @@ var option  = {
     from: '0x7A715ca2e8c9Db89804A3A9779ef817258033A87', // default from address
     gasPrice: '20000000000'
 }
-var privateKey = "a0e58acfc9eaca0dff809c2fe35942fb6add0805b63ab02452994bb52d7aff1f";
-var privateKey1 = "d7b0a3b8800ad16f7698f65bb92848d0f2e9b8916ab11506a39a4f9d09d22a5a";
-var Account = "0x7A715ca2e8c9Db89804A3A9779ef817258033A87";
 module.exports = {
     abi,
     address,
     option,
-    privateKey,
-    privateKey1,
 }

@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from "../View/Home"
+import Home from "../views/Home"
 import ListNet from "@/views/User/ListNet";
 import List_Seller from "@/views/User/List_Seller";
 import Create_Net from "@/views/User/Create_Net";
