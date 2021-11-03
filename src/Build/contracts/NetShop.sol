@@ -75,10 +75,10 @@ contract NetShop{
         return result;
     }
     // 获取当前自己进行拍卖的Net
-    function getMyAuction() public returns(Net[] memory){
+    function getMyAuction(address Owner) public returns(Net[] memory){
         delete result;
         for (uint256 i = 0; i < nets.length; i++) {
-            if(nets[i].onsale==true&&msg.sender==nets[i].owner){
+            if(nets[i].onsale==true&&Owner==nets[i].owner){
                 result.push(nets[i]);
             }
         }

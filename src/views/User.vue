@@ -175,7 +175,7 @@ export default {
         this.firstPlace = "我的NFT";
         this.now_content = "拍卖情况";
       }
-      getMyAuction().then(value=>{
+      getMyAuction(this.$store.state.Myaccount).then(value=>{
         console.log(value);
         this.$store.commit('changeMyNetArray', value);
         console.log(this.$store.state.sellNetArray);

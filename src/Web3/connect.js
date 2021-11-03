@@ -50,9 +50,9 @@ async function getAuction()
     let result = await metacoin.methods.getAuction().call();
     return result;
 }
-async function getMyAuction()
+async function getMyAuction(address)
 {
-    let result = await metacoin.methods.getMyAuction().call();
+    let result = await metacoin.methods.getMyAuction(address).call();
     return result;
 }
 async function bid(_id,value,privateKey)
