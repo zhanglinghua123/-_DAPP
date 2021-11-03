@@ -1,7 +1,7 @@
 <template>
   <div>
     <el-table
-        :data="this.$store.state.mySellArray"
+        :data="this.$store.state.sellNetArray"
         style="{
       width: 100%;
       padding:20px 30px 30px 30px;

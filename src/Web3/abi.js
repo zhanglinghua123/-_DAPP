@@ -515,9 +515,9 @@ const abi = [
     }
 ]
 // 合约地址
-var address = "0xcc0d6728614241Ff46B9226A69A8da49Dbf81E1C";
+var address = "0x67c75c7Bd7EFBFCeE2F6fa5c5faa7f9045cE2f56";
 var option  = {
-    from: '0x7A715ca2e8c9Db89804A3A9779ef817258033A87', // default from address
+    from: '0x64eA1b7770317B8fE83d8747e5309894b25713EC', // default from address
     gasPrice: '20000000000'
 }
 module.exports = {
